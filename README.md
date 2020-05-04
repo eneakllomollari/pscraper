@@ -5,7 +5,7 @@
 The goal of the project is to understand how the supply-side of vehicle availability affects the electric vehicle market. It tracks all vehicles that are available for sale at online marketplaces across the country through a web scraper that takes advantage of publicly available data.
 
 The main variables that are tracked are:
-| Tracked Variable | Description                                         |
+|  Variable        | Description                                         |
 |------------------|-----------------------------------------------------|
 | `first_date`     | Date this vehicle was first available for sale      |
 | `last_date`      | Date this vehicle was last available for sale       |
@@ -30,7 +30,7 @@ For more information on this project see [pscraper-db](https://www.github.com/en
 This is a python library with three packages:
 
 #### [`pscraper.scraper`](https://github.com/eneakllomollari/pscraper-lib/#pscraperscraper)
-Main package of the library that, among other, provides one main API, [`scrape`](https://github.com/eneakllomollari/pscraper-lib/#function-scrape), which performs the scraping process following the given parameters and saves it to the database.
+Main package of the library that, among others, provides one main API, [`scrape`](https://github.com/eneakllomollari/pscraper-lib/#function-scrape), which performs the scraping process following the given parameters and saves it to the database.
 Every vehicle is processed in a sequential manner, and there is work in progress to change that to a multithreading approach for performance improvement.
 
 The marketplace where data is scraped from are: [Cars.com](https://www.cars.com). Soon [Autotrader](https://www.autotrader.com) and [CarMax](https://www.carmax.com) will be added with more to come after.
@@ -41,7 +41,7 @@ This package has APIs that interact with the [endpoints](https://pscraper.heroku
 #### [`pscraper.utils`](https://github.com/eneakllomollari/pscraper-lib/#pscraperutils)
 Provides several miscellaneous helpers used for the scraping and reporting process..
 
-For more infomration on this project see [pscraper-lib](https://www.github.com/eneakllomollari/pscraper-lib).
+For more information on this project see [pscraper-lib](https://www.github.com/eneakllomollari/pscraper-lib).
 
 ### Daily Scraping Tool
 WIP
