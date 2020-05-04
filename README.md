@@ -33,7 +33,7 @@ This is a python library with three packages:
 Main package of the library that, among other, provides one main API, [`scrape`](https://github.com/eneakllomollari/pscraper-lib/#function-scrape), which performs the scraping process following the given parameters and saves it to the database.
 Every vehicle is processed in a sequential manner, and there is work in progress to change that to a multithreading approach for performance improvement.
 
-The marketplace where data is scraped from are: [https://www.cars.com](cars.com). Soon [Autotrader](https://www.autotrader.com) and [CarMax](https://www.carmax.com) will be added with more to come after.
+The marketplace where data is scraped from are: [Cars.com](https://www.cars.com). Soon [Autotrader](https://www.autotrader.com) and [CarMax](https://www.carmax.com) will be added with more to come after.
 
 #### [`pscraper.api`](https://github.com/eneakllomollari/pscraper-lib/#pscraperapi)
 This package has APIs that interact with the [endpoints](https://pscraper.herokuapp.com/api/v1/) provided by the backend application. It is used to create, update or retrieve records on a vehicle or seller.
@@ -41,7 +41,7 @@ This package has APIs that interact with the [endpoints](https://pscraper.heroku
 #### [`pscraper.utils`](https://github.com/eneakllomollari/pscraper-lib/#pscraperutils)
 Provides several miscellaneous helpers used for the scraping and reporting process..
 
-For more infomration on this project see [pscraper-lib](github.com/eneakllomollari/pscraper-lib).
+For more infomration on this project see [pscraper-lib](https://www.github.com/eneakllomollari/pscraper-lib).
 
 ### Daily Scraping Tool
 WIP
