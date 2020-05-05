@@ -41,10 +41,23 @@ This package has APIs that interact with the [endpoints](https://pscraper.heroku
 #### [`pscraper.utils`](https://github.com/eneakllomollari/pscraper-lib/#pscraperutils)
 Provides several miscellaneous helpers used for the scraping and reporting process..
 
+Since the scraping function is designed to be autonomous, the functions are configured so that if any failure occurs a slack message will be sent to a specific channel.
+
+
 For more information on this project see [pscraper-lib](https://www.github.com/eneakllomollari/pscraper-lib).
 
 ### Daily Scraping Tool
-WIP
+This project contains the script that performs web-scraping daily. At the end of the scraping process a report is build a send to a slack channel.
+The command to start the scheduled scraping is:
+```bash
+$ nohup ./scrape.py &
+```
+This is run inside a tmux session on a [Google Cloud Compute Engine](https://cloud.google.com/compute) so that the process can run without any supervision.
+
+For more information on this project see [pscraper-tool](https://www.github.com/eneakllomollari/pscraper-tool).
+
 
 ### Data Dashboard
 WIP
+
+A frontend dashboard, build with ReactJS. There might be more uses for it later but at the moment it's planned to be used mainly as a data visualization tool. Users are authenticated using the Django framework that's already set up, and it will have different views/layout based on the user's permissions.
