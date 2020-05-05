@@ -57,7 +57,7 @@ This is run inside a tmux session on a [Google Cloud Compute Engine](https://clo
 For more information on this project see [pscraper-tool](https://www.github.com/eneakllomollari/pscraper-tool).
 
 
-### Data Dashboard
+### Data Dashboard <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="32" height="32">
 WIP
 
 A frontend dashboard, build with ReactJS. There might be more uses for it later but at the moment it's planned to be used mainly as a data visualization tool. Users are authenticated using the Django framework that's already set up, and it will have different views/layout based on the user's permissions.
