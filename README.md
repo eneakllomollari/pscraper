@@ -68,5 +68,22 @@ A frontend dashboard, build with ReactJS. There might be more uses for it later 
 <img src="/map_white.png">
 
 ## Tools/Services Used
-<img src="https://www.django-rest-framework.org/img/logo.png">
-<img src="https://brand.heroku.com/static/media/built-on-heroku-dark.ef2aa337.svg">
+<p>
+  <img src="https://juststickers.in/wp-content/uploads/2019/07/django-shapecut.png" width="253" height="201" alt="Django3"/> 
+  <img src="https://www.django-rest-framework.org/img/logo.png" width="454" height="200" alt="Djano Rest Framework (DRF)"/>
+</p>
+<p>
+  <img src="https://brand.heroku.com/static/media/heroku-logotype-spacing-horizontal.7594cf7f.svg" width="330" height="145" alt="Heroku"/>   
+  <img src="https://cdn.worldvectorlogo.com/logos/mysql.svg" width="201" height="145" alt="MySQL"/>
+</p>
+<p>
+  <img src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width="351" height="151" alt="BeautifulSoup4"/>
+  <img src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" width="152" height="152" alt="Python3.7"/>
+  <img src="https://cdn.clipart.email/d9e4929a152eaf98c98d78feda3d7fa8_google-maps-png-transparent-google-mapspng-images-pluspng_900-916.png" width="147" height="150" alt="Google Maps API"/>
+</p>
+<p>
+  <img src="https://venturebeat.com/wp-content/uploads/2019/10/google-cloud-platform.png?fit=800%2C400&amp;strip=all" width="370" height="185" alt="Google Cloud Platform (GCP)"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Cloud-SQL-Logo.svg" width="183" height="183" alt="Cloud SQL"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Google-Compute-Engine-Logo.svg/1200px-Google-Compute-Engine-Logo.svg.png" width="183" height="183" alt="Compute Engine"/>
+  <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="174" height="174" alt="ReactJS"/>
+</p>
