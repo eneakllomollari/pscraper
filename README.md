@@ -61,3 +61,7 @@ For more information on this project see [pscraper-tool](https://www.github.com/
 WIP
 
 A frontend dashboard, build with ReactJS. There might be more uses for it later but at the moment it's planned to be used mainly as a data visualization tool. Users are authenticated using the Django framework that's already set up, and it will have different views/layout based on the user's permissions.
+
+## Tools/Services Used
+<img src="https://www.django-rest-framework.org/img/logo.png">
+<img src="https://brand.heroku.com/static/media/built-on-heroku-dark.ef2aa337.svg">
