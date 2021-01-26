@@ -32,7 +32,7 @@ This is a python library with three packages:
 #### `pscraper.scraper`
 Main package of the library that, among others, provides one main API, `scrape`, which performs the scraping process following the given parameters and saves it to the database. Every vehicle is processed in a sequential manner, and there is work in progress to change that to a multithreading approach for performance improvement.
 
-The marketplace where data is scraped from are: [Cars.com](https://www.cars.com). Soon [Autotrader](https://www.autotrader.com) and [CarMax](https://www.carmax.com) will be added with more to come after.
+The marketplace where data is scraped from are: [Cars.com](https://www.cars.com), and [AutoTrader](https://www.autotrader.com).
 
 #### `pscraper.api`
 This package has APIs that interact with the [endpoints](https://pscraper.herokuapp.com/api/v1/) provided by the backend application. It is used to create, update or retrieve records on a vehicle or seller.
