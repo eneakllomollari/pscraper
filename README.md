@@ -60,6 +60,9 @@ For more information on this project see [pscraper-tool](https://www.github.com/
 WIP
 
 A frontend dashboard, build with ReactJS. There might be more uses for it later but at the moment it's planned to be used mainly as a data visualization tool. Users are authenticated using the Django framework that's already set up, and it will have different views/layout based on the user's permissions.
+
+For more information on this project see [pscraper-dashboard](https://www.github.com/eneakllomollari/pscraper-dashboard).
+
 #### Screenshots:
 <img src="./main_average.png">
 <img src="./main_variance.png">
